@@ -1993,6 +1993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   count: 0
+  particlePrefab: {fileID: 0}
 --- !u!82 &537633251
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2089,6 +2090,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &537633258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537633243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e47ef06ddaa45539e841599d1c01d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  count: 0
+  particlePrefab: {fileID: 424017297200180456, guid: 88a92f403cbeb4bef84f9de3f2087ab3, type: 3}
 --- !u!1001 &567672986
 PrefabInstance:
   m_ObjectHideFlags: 0

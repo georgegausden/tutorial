@@ -23,7 +23,7 @@ public class PickerUpper : MonoBehaviour
     {
         if (collision.collider.gameObject.CompareTag("Pickup"))
         {
-            GameObject.Instantiate(particlePrefab);
+            GameObject.Instantiate(particlePrefab, collision.collider.gameObject.transform.position,Quaternion.identity);
 
             GameObject.Destroy(collision.collider.gameObject);
 
